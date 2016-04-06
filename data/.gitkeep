@@ -1,1 +1,16 @@
-
+do local _ = {
+  disabled_channels = {},
+  enabled_plugins = {
+    "help",
+    "id",
+    "plugins",
+  },
+  moderation = {
+    data = "data/moderation.json"
+  },
+  sudo_users = {
+    0
+  }
+}
+return _
+end
